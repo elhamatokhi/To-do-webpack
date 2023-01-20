@@ -1,9 +1,8 @@
 import './style.css';
-// import UI from './modules/UI.js';
-import Storage from './modules/storage.js';
-import events from './modules/UI.js';
+import todoActions from './modules/UI.js';
+import Crud from './modules/storage.js';
 
-events();
+todoActions();
 
-const todoClass = new Storage();
+const todoClass = new Crud();
 todoClass.updateUI();
