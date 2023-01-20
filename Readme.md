@@ -80,7 +80,7 @@ npm start
 
 ## Author <a name="author"></a>
 
-👤 **James Serengia**
+👤 **Elhama tokhi**
 
 - GitHub: [@githubhandle]https://github.com/elhamatokhi
 <!-- FUTURE FEATURES -->
