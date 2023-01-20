@@ -1,11 +1,31 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="mainContainer">
+      <header class="head"></header>
+      <section class="container">
+        <div class="todo-wrap" data-form>
+          <h1>Today's To Do...</h1>
+          <div class="btnInput">
+            <input
+              type="text"
+              class="todo-name"
+              id="input-task"
+              data-input
+              placeholder="Add to your list...."
+            />
+            <button class="add-todo">⬅</button>
+          </div>
+          <div class="wrapper" data-lists></div>
+          <button class="clearAll">Clear all copleted..</button>
+        </div>
+      </section>
+      <footer class="footer"></footer>
+    </section>
+  </body>
 </html>
